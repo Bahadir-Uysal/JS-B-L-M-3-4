@@ -1,13 +1,19 @@
-const ad = "bahadir"
+let ogrenci= {
+    ad:"Bahadir",
+    yas:29,
+    email:"uysalbahadir1529@gmail.com",
+    sinif:12,
+    dersler:["matematik","fizik","kimya"]
 
-//arrow fonction
+};
+console.log(ogrenci);
+console.log(ogrenci.yas);
 
-const bahadir = ()=> "bahadir"
+ogrenci.yas=21;
+console.log(ogrenci.yas)
+ogrenci.ad="Hasan"
+console.log(ogrenci.ad);
 
-let sonuc1 = bahadir();
-console.log(sonuc1);
+console.log(typeof ogrenci);
 
-//methodlar
-
-let sonuc2 = ad.toUpperCase();
-console.log(sonuc2);
+console.log(ogrenci.dersler);
